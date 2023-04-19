@@ -1,0 +1,261 @@
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+:root {
+	--cor-fundo1:#000;
+	--cor-fundo2:#222634;
+	--cor-verde:#009748;
+	--cor-texto:#FFF;
+	--nome-fonte:'inter';
+}
+
+header {
+	Background-color: var(--cor-fundo1);
+	Text-align: center;
+	Padding: 20px;
+}
+
+#inicio {
+	background-color: var(--cor-fundo1);
+	height: 700px;
+}
+
+.container {
+	Background-image: url('../imagens/fundo.png');
+	width: 1440px; 
+	height: 700px; 
+	margin: 0auto; 
+	background-repeat: no-repeat;
+}
+
+.lateral_esquerda {
+	Backgroynd-color: transparent;
+	width: 720px; 
+	height: 700px; 
+}
+
+.bla {
+	font-family: var(--nome-fonte);
+	font-style: normal;
+	font-weight: 700;
+	font-size: 28px;
+	line-height: 34px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+
+.botao_assine {
+	color: #FFF;
+	background-color: var(--cor-verde);
+	text-decoration: none;
+	font-family: var(--nome-fonte);
+	font-size: 16px;
+
+	text-align: center;
+
+	display: block;
+	margin: 10px 60px;
+	padding: 16px;
+
+	border-radius: 10px;
+}
+
+.botao2 {
+	color: #FFF;
+	background-color: #000000;
+	text-decoration: none;
+	font-family: var(--nome-fonte);
+	font-size: 16px;
+
+	text-align: center;
+
+	display: block;
+	margin: 10px 60px;
+	padding: 16px;
+
+	border-radius: 10px;
+
+	border: 1px solid #FFFFFF;
+}
+
+.subtitulo {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400;
+	font-size: 12px;
+	line-height: 15px;
+	color: #FFFFFF;
+
+	text-align: center;
+}
+
+/*Sessão 2 - assista*/
+
+#assista {
+	background-color: var(--cor-fundo2);
+	height: 700px;
+}
+
+.assista2 {
+	width: 720px; 
+	height: 700px; 
+	float:left;
+	margin-top: 100px;
+	margin-left: 30px;
+}
+
+.subtitulo1 {
+	width: 720px;
+	height: 700px;
+	float: right;
+	margin-top: 250px;
+	margin-right: 30px;
+}
+
+.titulo {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700px;
+	font-size: 38px;
+	line-height: 34px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+.subtitulo2 {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400px;
+	font-size: 16px;
+	line-height: 34px;
+	color: #FFFFFF;
+}
+
+#flor {
+	background-color: #000000;
+	height: 900px;
+}
+
+.florzinha {
+	width: 720px;
+	float: left;
+	margin-top: 150px;
+	margin-left: 30px;
+}
+
+.quar {
+	width: 720px; 
+	float: right;
+	margin-top: 50px;
+	margin-right: 30px;
+}
+
+
+.sol {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700px;
+	font-size: 14px;
+	line-height: 34px;
+	text-align: center;
+	color: #FFFFFF;
+	margin-top: 100px;
+}
+
+.nuvem {
+
+color: #FFF;
+	background-color: var(--cor-verde);
+	text-decoration: none;
+	font-family: var(--nome-fonte);
+	font-size: 16px;
+
+
+	text-align: center;
+
+	display: block;
+	margin: 10px 60px;
+	padding: 16px;
+
+	border-radius: 10px;
+}
+
+#tv {
+
+background-color: var(--cor-fundo2);
+	height: 700px;
+}
+
+.notebook {
+	width: 720px; 
+	height: 700px; 
+	float:left;
+	margin-top: 100px;
+	margin-left: 30px;
+}
+
+.verde {
+	width: 720px;
+	height: 700px;
+	float: right;
+	margin-top: 250px;
+	margin-right: 30px;
+}
+
+.azul {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 700px;
+	font-size: 38px;
+	line-height: 34px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+
+.texto {
+	font-family: 'Inter';
+	font-style: normal;
+	font-weight: 400px;
+	font-size: 16px;
+	line-height: 34px;
+	color: #FFFFFF;
+}
+
+#chuva{
+	background-color: black;
+	height: 700px;
+
+}
+
+ul#lista-itens{
+	list-style: none;
+	margin-top: 20px;
+}
+
+ul#lista-itens > li{
+	display: inline-block;
+	margin: 30px;
+}
+
+#lua{
+	width: 1200px;
+	text-align: center;
+	margin: 0 auto;
+	position: relative;
+	top: 260px;
+}
+
+#lua > h1{
+	font-size: 35pt;
+	font-weight: bolder;
+}
+
+figure > figcaption{
+	font-size: 20pt;
+	font-weight: bolder;
+}
